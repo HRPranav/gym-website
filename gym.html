@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Gym</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style gym.css">
+    <style>
+        body{
+            font-family: 'Baloo 2', cursive;
+            margin: 0px;
+            padding: 0px;
+            background: url("gym/man.jpg");
+            height: 45444px;
+            
+        }
+        .left{
+              /*border: 2px solid rgb(236, 229, 229);*/
+              display: inline-block;
+              position: absolute;
+              top: 20px;
+              left: 34px;
+        }
+        .right{
+           /* border: 2px solid rgb(29, 212, 16);*/
+            display: inline-block;
+            position:absolute;
+            right: 34px;
+            top: 20px;
+            
+        }
+        .mid{
+           /* border: 2px solid rgb(176, 209, 55);*/
+            display: block;
+            width: 38%;
+            margin: 20px  auto;
+        }
+        .navbar{
+            display: inline-block;
+            
+        }
+        .navbar li{
+            display: inline-block;
+            
+        }
+        .navbar li a{
+            color: white;
+            padding: 34px 23px;
+            text-decoration: none;
+        }
+        .navbar li a:hover{
+            color: rgb(202, 33, 33);
+            padding: 34px 23px;
+            text-decoration: none;
+        }
+        .left img {
+            width: 150px;
+        }
+        .btn{
+            margin: 0px 9px;
+            background-color: black;
+            color: rgb(237, 236, 245);
+            padding: 4px 14px;
+            border: 2px solid gray;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+            font-family: 'Baloo 2', cursive;
+        }
+        .btn:hover{
+            background-color: rgb(231, 22, 15);
+        }
+        .container{
+          /*  border: 2px solid black;*/
+            margin: 200px 100px;
+           color: white;
+            padding: 2px 2px;
+            width: 33%;
+            border-radius: 5px;
+            
+        }
+        .form input{
+            text-align: center;
+            display: block;
+            width: 150px;
+            padding: 8px;
+            border: 2px solid black;
+            margin: 3px auto;
+            border-radius: 4px;
+            font-size: 15px;
+            
+
+        }
+        .container h1{
+            text-align: center;
+            text-align: center;
+            text-align: center;
+        }
+        .container button{
+            display: block;
+            width: 23%;
+            margin: auto;
+        }
+        </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="gym/2626372.jpg" alt="">
+            <div> </div>
+            
+        </div>
+           
+        <div class="right">
+            <button class="btn">call us Now</button>
+            <button class="btn">Email us</button>
+        </div>
+                
+        <div class="mid">
+            
+            <ul class ="navbar">
+                <li> <a href="#"> Home</a></li>
+                <li> <a href="#"> About Us</a></li>
+                <li> <a href="#">Fitness Calculator</a></li>
+                <li> <a href="#"> Contact Us</a></li>
+        </div>
+                          
+
+    </header>
+    <div class="container">
+<h1> Join the fitness Gym Now</h1> 
+<form action="noaction.php">
+<div class="form">
+    <input type="text" name="" placeholder="Enter your Name">
+</div>
+<div class="form">
+    <input type="text" name ="" placeholder="Enter your Age">
+</div>
+<div class="form">
+    <input type="text" name="" placeholder="Enter your Place">
+</div>
+<div class="form">
+    <input type="text" name="" placeholder="contact Number">
+</div>
+<button class="btn">submit</button>
+</form>
+
+    </div>
+    
+</body>
+</html>
